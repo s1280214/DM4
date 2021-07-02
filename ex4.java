@@ -1,9 +1,20 @@
 import java.util.Random;
 import java.lang.Math;
-  
+import java.util.Scanner; 
+
 public class Main {
       public static void main(String[] args) {
-  
+        
+        //名前を聞くパート
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("what is your name");
+
+        String num = scanner.nextLine();
+
+        System.out.println("Hello "+num);
+        
+        //ダイスロール
 System.out.println("Rolling the dice...");
   
           int goal;
