@@ -16,5 +16,13 @@ System.out.println("Rolling the dice...");
         goal = val1 + val2;
 
         System.out.println("Total value : "+goal);
+         if(goal >=7) {
+            System.out.println(num+" won");
+        }
+
+        else{
+             System.out.println(num+" lose");
+        }
+
 }
 }
